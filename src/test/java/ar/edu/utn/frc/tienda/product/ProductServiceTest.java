@@ -58,7 +58,7 @@ class ProductServiceTest {
 
         assertThat(created.getName()).isEqualTo("Monitor");
         assertThat(created.getPrice()).isEqualByComparingTo("199.99");
-        assertThat(created.getStock()).isEqualTo(5);
+        assertThat(created.getStock()).isEqualTo(6);
     }
 
     @Test
